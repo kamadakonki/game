@@ -1,0 +1,55 @@
+body {
+    font-family: cursive;
+    font-size: 70px;
+    background-color: aqua;
+}
+
+h1 {
+    text-shadow: 3px 3px 0 yellow;
+    text-align: center;
+    font-size: 100px;
+    color: blue;
+}
+
+p {
+    text-align: center;
+    text-shadow: 1px 1px 0 yellow;
+    font-size: 30px;
+    color: blue;
+}
+
+#flame {
+    text-shadow: 3px 3px 0 black;
+    color: yellow;
+    width: 100%;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#restart {
+    width: 30%;
+    background-color: blue;
+    border-color: yellow;
+    border-radius: 50px 20px 20px 50px;
+    margin-right: 5px;
+}
+
+#back {
+    width: 30%;
+    background-color: blue;
+    border-color: yellow;
+    border-radius: 20px 50px 50px 20px;
+    margin-left: 5px;
+}
+
+a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    /* text-shadow: 1px 1px yellow; */
+}

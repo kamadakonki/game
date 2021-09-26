@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Othello Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1><b id="red">Red</b> <b id="blue">v</b><b id="red">s</b> <b id="blue">Blue</b></h1>
+    <!-- <p>英国の大統領選の報道では、それぞれ共和党と民主党の強い州を赤と青で色分けしています。<br>オセロを使ってどちらが勝利するか決めてみよう。</p> -->
+
+    <!--リセット-->
+    <div class="btn">
+        <button type="button" id="ban_init" onclick="ban_init()">スタート</button>
+        <button type="button" id="end"><a href="../main/index.html">終　了</a></button>
+    </div>
+    <!--ターン-->
+    <p id="view_tarn"></p>
+    <!--エリア-->
+    <table id="field"></table>
+    <script src="./app.js"></script>
+</body>
+
+</html>
